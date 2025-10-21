@@ -11,7 +11,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - ground
   - 
   - 
   - 
@@ -41,9 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: background
-    uniqueID: 714655535
+  - name: bg
+    uniqueID: 3438995059
     locked: 0
-  - name: FOREGROUND
-    uniqueID: 2962535131
+  - name: sky
+    uniqueID: 3454243267
+    locked: 0
+  - name: ground
+    uniqueID: 2352694579
+    locked: 0
+  - name: char
+    uniqueID: 2634317779
     locked: 0

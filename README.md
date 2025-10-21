@@ -1,2 +1,2 @@
-# Lab2
-trial
+# lab2-sample
+this istoday's lab
