@@ -1,13 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class PlayerStats : MonoBehaviour
 {
 
     public int health = 3;
     public int lives = 3;
-
+    public int score = 0;
+    public bool hasHeart = false;
     private float flickerTime = 0f;
     public float flickerDuration = 0.1f;
 
@@ -16,6 +19,7 @@ public class PlayerStats : MonoBehaviour
     public bool isImmune = false;
     private float immunityTime= 0f;
     public float immunityDuration = 1.5f;
+    public TextMeshProUGUI scoreUI;
     // Start is called before the first frame update
     void Start()
     {
@@ -35,6 +39,7 @@ public class PlayerStats : MonoBehaviour
                 sr.enabled = true;
             }
         }
+        scoreUI.text = " "+ score;
     }
 
       void SpriteFlicker()
